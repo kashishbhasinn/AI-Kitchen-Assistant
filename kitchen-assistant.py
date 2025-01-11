@@ -1,4 +1,4 @@
-import google.generativeai as genai
+import openai as genai
 import streamlit as st
 
 # Configure the API key
