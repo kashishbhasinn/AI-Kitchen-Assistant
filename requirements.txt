@@ -1,0 +1,5 @@
+python-dotenv==1.0.1
+streamlit==1.44.1
+clarifai-grpc==11.3.2
+google-generativeai==0.8.5
+pillow==10.2.0
