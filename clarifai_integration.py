@@ -6,11 +6,11 @@ from PIL import Image
 import io
 
 # Clarifai API Key
-CLARIFAI_API_KEY = "1ec87780113f4f449622334d89dca747"
+CLARIFAI_API_KEY = ""
 
 # Food model ID - using the general model which can detect various objects including food items
 CLARIFAI_MODEL_ID = "general-image-recognition"
-CLARIFAI_MODEL_VERSION_ID = "aa7f35c01e0642fda5cf400f543e7c40"  # General model version
+CLARIFAI_MODEL_VERSION_ID = ""  # General model version
 
 def get_clarifai_stub():
     """Create a gRPC stub for the Clarifai API."""
